@@ -16,7 +16,7 @@ export default function AnimeCards() {
       .then((response) => response.json())
       .then((result) => setData(result))
       .catch((error) => console.error("Error", error));
-  });
+  }, []);
 
   return (
     <div className="cards">
