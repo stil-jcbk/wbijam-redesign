@@ -5,6 +5,7 @@
   border-radius: 20px;
   max-height: 300px;
   overflow: scroll;
+  overflow-x: hidden;
 }
 
 .episodes ul {
