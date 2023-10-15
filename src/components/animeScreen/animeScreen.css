@@ -64,9 +64,17 @@
   .screen {
     align-items: normal;
     overflow: scroll;
+    padding: 10px;
+    overflow-x: hidden;
   }
 
   .content {
     flex-direction: column;
+    margin: 0px;
+  }
+
+  .content .anime {
+    margin-right: 0;
+    margin: 20px;
   }
 }
