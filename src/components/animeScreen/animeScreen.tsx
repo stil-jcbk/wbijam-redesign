@@ -44,7 +44,7 @@ export default function AnimeScreen(props: AnimeScreenProps) {
           let htmlElement = document.getElementsByTagName(
             "html"
           )[0] as HTMLElement;
-          htmlElement.style.overflow = "scroll";
+          htmlElement.style.overflow = "auto";
         }
       }}
       id="screen-bg"
