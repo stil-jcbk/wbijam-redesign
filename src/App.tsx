@@ -1,5 +1,6 @@
 import Navbar from "./components/navbar/navbar";
 import AnimeCards from "./components/animeCards/animeCards";
+import Footer from "./components/footer/footer";
 import "./App.css";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <h1 className="title">LISTA ANIME</h1>
         <AnimeCards />
       </div>
+      <Footer />
     </div>
   );
 }
